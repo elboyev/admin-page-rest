@@ -31,10 +31,8 @@
                     </select>
                     <!-- <input type="text" class="form-control form-control-user" id="search"  name="post_category" placeholder="Post Category" autocomplete="off">  -->
                     <input type='hidden' id='category_id' name="category_id">
-                    
                       <div style="display: inline-flex; position: absolute;z-index: 999;background: whitesmoke; width: 200px;
                       " id="display" class="form-group"></div>
-
                   </div>
                 </div>
                 <div class="form-group">
