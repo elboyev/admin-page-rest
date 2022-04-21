@@ -18,10 +18,10 @@ if(count($_SESSION) > 0 ){
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
-        <div class="sidebar-brand-icon rotate-n-15">
-                <img width="40px;" height="40px;" class="img-profile rounded-circle" src="img/logo.jpg">
+        <div class="sidebar-brand-icon">
+                <img width="40px;" height="40px;" class="img-profile rounded-circle" src="img/admin.png">
         </div>
-        <div class="sidebar-brand-text mx-3">Post Admin <sup>1.0</sup></div>
+        <div class="sidebar-brand-text mx-3">My Admin <sup>1.0</sup></div>
       </a>
 
       <!-- Divider -->
@@ -168,7 +168,7 @@ if(count($_SESSION) > 0 ){
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $_SESSION['first_name'].' '.$_SESSION['last_name'];?></span>
-                <img class="img-profile rounded-circle" src="img/logo.jpg">
+                <img class="img-profile rounded-circle" src="img/admin.png">
               </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">

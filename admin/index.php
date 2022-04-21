@@ -87,17 +87,50 @@ $count_cat = $row[0];
                   <h6 class="m-0 font-weight-bold text-primary">Admin Profile</h6>
                 </div>
                 <div class="card-body">
-                  
-                  <h4 class="small font-weight-bold">Name: <?php echo $_SESSION['first_name'].' '.$_SESSION['last_name'];?></h4>
-                
-                  <h4 class="small font-weight-bold"> Email: <?php echo $_SESSION['email'];?></h4>
-                  
-                  <h4 class="small font-weight-bold">Phone No.: <?php echo $_SESSION['phone'];?> </h4>
-                  
-                  <h4 class="small font-weight-bold">Personal Details: <?php echo $_SESSION['detail'];?></h4>
-                
-                  <h4 class="small font-weight-bold">Password: <input type="password" value="FakePSW" id="myInput"><br><br>
-                      <input type="checkbox" onclick="showPassword()">Show Password </h4>
+                  <table class="table">
+                    <tr>
+                      <th>
+                        <h4 class="small font-weight-bold"><b>Name:</b></h4>
+                      </th>
+                      <th>
+                        <h4 class="small font-weight-bold"><?php echo $_SESSION['first_name'].' '.$_SESSION['last_name'];?></h4>
+                      </th>
+                    </tr>
+                    <tr>
+                      <th>
+                        <h4 class="small font-weight-bold"><b>Email:</b></h4>
+                      </th>
+                      <th>
+                        <h4 class="small font-weight-bold"><?php echo $_SESSION['email'];?></h4>
+                      </th>
+                    </tr>
+                    <tr>
+                      <th>
+                        <h4 class="small font-weight-bold"><b>Phone No.:</b></h4>
+                      </th>
+                      <th>
+                        <h4 class="small font-weight-bold"><?php echo $_SESSION['phone'];?></h4>
+                      </th>
+                    </tr>
+                    <tr>
+                      <th>
+                        <h4 class="small font-weight-bold"><b>Personal Details:</b></h4>
+                      </th>
+                      <th>
+                        <h4 class="small font-weight-bold"><?php echo $_SESSION['detail'];?></h4>
+                      </th>
+                    </tr>
+                    <tr>
+                      <th>
+                        <h4 class="small font-weight-bold"><b>Password:</b></h4>
+                      </th>
+                      <th>
+                        <span><h4 class="small font-weight-bold"><input type="password" value="FakePSW" id="myInput"></h4></span>
+                        <span><input type="checkbox" onclick="showPassword()" id="show-password"><label for="show-password">Show Password</label></span>
+                      </th>
+                    </tr>
+                  </table>
+
                   
                 </div>
               </div>

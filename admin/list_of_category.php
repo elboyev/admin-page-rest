@@ -21,12 +21,12 @@ include 'sidebar.php';
             </div>
             <div class="card-body">
               <div class="table-responsive">
-                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <table class="table table-striped" id="dataTable" width="100%" cellspacing="0">
                   <thead>
                     <tr>
                       <th>Category ID</th>
                       <th>Category Name</th>
-                  
+                      <th>Category Image</th>
                       <th>Action</th>
 
                     </tr>
@@ -35,6 +35,7 @@ include 'sidebar.php';
                     <tr>
                       <th>Category ID</th>
                       <th>Category Name</th>
+                      <th>Category Image</th>
                       <th>Action</th>
                     </tr>
                   </tfoot>
@@ -52,6 +53,9 @@ include 'sidebar.php';
                                                     
                                                         <td><?php echo $row["category_id"];?></td>
                                                         <td><?php echo $row["category_name"];?></td>
+                                                        <!-- ushbu joyga rasmning nomi yuklanadi. -->
+                                                        
+                                                        <td><!-- <?php echo $row[""];?> --></td>
                                                        <td>  
                                                           <a href="delete_category.php?category_id=<?php echo $category_id; ?>" style="margin: 1px;" class="btn btn-danger btn-circle btn-sm">
                                                             <i class="fas fa-trash"></i>

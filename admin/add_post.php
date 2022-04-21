@@ -22,10 +22,17 @@
                   </div>
 
                   <div class="col-sm-6">
-                    <input type="text" class="form-control form-control-user" id="search"  name="post_category" placeholder="Post Category" autocomplete="off"> 
+                    <select name="post_category" id="search" class="form-select form-control">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                    </select>
+                    <!-- <input type="text" class="form-control form-control-user" id="search"  name="post_category" placeholder="Post Category" autocomplete="off">  -->
                     <input type='hidden' id='category_id' name="category_id">
                     
-                      <div style="    display: inline-flex; position: absolute;z-index: 999;background: whitesmoke; width: 200px;
+                      <div style="display: inline-flex; position: absolute;z-index: 999;background: whitesmoke; width: 200px;
                       " id="display" class="form-group"></div>
 
                   </div>
@@ -38,7 +45,7 @@
                     <input type="text" autocomplete="off" class="form-control form-control-user" name="post_link" placeholder="Post Link">
                   </div>
                   <div class="col-sm-6">
-                    <input type="file"  class="form-control " name="post_image" placeholder="">
+                    <input type="file"  class="form-control d-flex flex-row" name="post_image" placeholder="">
                   </div>
                 </div>
                 <button type="submit" class="btn btn-primary btn-user btn-block">Submit</button> 

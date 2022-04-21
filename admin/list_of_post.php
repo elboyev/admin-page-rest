@@ -64,17 +64,12 @@ include 'sidebar.php';
                                                        <td><?php echo $row["post_id"];?></td>
                                                         <td><?php echo $rowcat["category_name"];?></td>
                                                         <td><?php echo $row["post_title"];?></td>
-                                                        <td 
-                                                        style="  max-width: 500px;
-                                                            overflow: overlay;
-/*                                                                text-overflow: ellipsis;
-*/                                                                    white-space: nowrap;
-
-                                                        ">
-                                                        <?php echo $row["post_description"];?></td>
+                                                        <td style="max-width: 400px; overflow: overlay; white-space: nowrap;">
+                                                          <?php echo $row["post_description"];?>                                                      
+                                                        </td>
                                                         <td><?php echo $row["post_link"];?></td>
                                                         <td>
-                                                         <img src=" <?php echo $row["post_image"];?>" alt="Italian Trulli"
+                                                         <img src=" <?php echo $row["post_image"];?>" style="object-fit: cover;" alt="Italian Trulli"
                                                            width="100" height="100">
                                                          </td>
                                                         <td><?php echo $row["created_at"];?></td>

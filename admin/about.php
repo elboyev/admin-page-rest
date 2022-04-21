@@ -12,12 +12,12 @@ include 'sidebar.php';
           <h1 class="h3 mb-4 text-gray-800">About Page</h1>
   <div class="card shadow mb-4">
                 <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">My LEKH</h6>
+                  <h6 class="m-0 font-weight-bold text-primary">My App Admin</h6>
                 </div>
                 <div class="card-body">
-                  <p>Hey! Guys,How You Doing?  This is the sample Project for pratice Purpose. This Admin Panel for add the category, posts by admin only. also the list of post are shown in android app.</p>
-                  <p class="mb-0"> For this Project Admin Panel Development, the <b>SB Admin 2</b> HTML and Bootstrap Templete used.  </p>
-                  <p>Langauge: <b>PHP,HTML,Bootstrap,CSS,JS,Ajax.</b></p>
+                  <p><b>Mobile Ilova uchun Admin Panel</b> </p>
+                  <p class="mt-3">Dasturda Foydalanilgan tillar va texnalogiyalar: <b>HTML, PHP, CSS, Bootstrap, JavaScript, Ajax.</b></p>
+                  <p class="mb-0 mt-4"> Created Bye <i>Android Developer</i> <b>Elboyev Baxtiyor</b> and <i>Web Developer</i> <b>Jumaqulov Ravshan</b> </p>
                 </div>
               </div>
         </div>

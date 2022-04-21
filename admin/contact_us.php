@@ -26,7 +26,7 @@ include 'sidebar.php';
                       <div class="text-xs font-weight-bold text-success text-uppercase mb-1"> My Github</div>
                       <div class="row no-gutters align-items-center">
                         <div class="col-auto">
-                         <a href="https://www.github.com/Dinesh2510" target="_blank" rel="nofollow"> <div class="h5 mb-0 mr-3 font-weight-bold success">Link: www.github.com/Dinesh2510</div></a>
+                         <a href="https://github.com/intellisoft-uz" target="_blank" rel="nofollow"> <div class="h5 mb-0 mr-3 font-weight-bold success">Link: Intellisoft.uz</div></a>
                         </div>
                         
                       </div>
@@ -48,7 +48,7 @@ include 'sidebar.php';
 
                      <a href=""> <div class="text-xs font-weight-bold text-info text-uppercase mb-1"><b style="
                                 font-size: medium;
-                            ">Email: Dineshchavan7708@outlook.com</b></div></a>
+                            ">My Email Address </b></div></a>
                                                   
                     </div>
                     <div class="col-auto">
@@ -73,7 +73,7 @@ include 'sidebar.php';
                   <div class="text-center">
                     <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/undraw_android.png" alt="">
                   </div>
-                  <p>  My LEKH <a target="_blank" rel="nofollow" href="#">     </a></p>
+                  <p>  <b>Moziy</b> <a target="_blank" rel="nofollow" href="#">     </a></p>
                   <a target="_blank" rel="nofollow" href="#">Browse  &rarr;</a>
                 </div>
               </div>

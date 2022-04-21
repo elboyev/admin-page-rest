@@ -39,11 +39,15 @@ include 'sidebar.php';
                      <input type="hidden" name="category_id" value="<?php echo $category_id; ?>">
                     <input type="text" class="form-control form-control-user" value="<?php echo($category_name) ?>" name="category_name" id="category_name" placeholder="Category Name">
                   </div>
+                  <div class="col-sm-6 mb-3 mb-sm-0">
+                     <input type="hidden" name="category_id" value="<?php echo $category_id; ?>">
+                      <input type="text" class="form-control form-control-user" value="<?php echo($img_url) ?>" name="img_url" id="category_name" placeholder="Image Url Address...">
+                  </div>
+
                 </div>
                   <hr>
-                                <button style="width: 300px;" type="submit" class="btn btn-primary form-control-user btn-user btn-block ">Submit</button> 
-
-                <hr>
+                    <button style="width: 300px;" type="submit" class="btn btn-primary form-control-user btn-user btn-block ">Submit</button> 
+                  <hr>
                
               </form>                    
                   </div>
